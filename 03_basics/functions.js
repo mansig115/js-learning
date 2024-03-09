@@ -17,16 +17,28 @@ function  sayMyName(){
 
 //Add two numbers function
 
-function addTwoNumbers(num1, num2){ //as the num1 
-    console.log(num1+num2);
-}
+// function addTwoNumbers(num1, num2){ //as the num1 
+//     console.log(num1+num2);
+// }
 
 // addTwoNumbers(5,6)
 // addTwoNumbers(3, "a") // prints -3a
-addTwoNumbers(3, null) // prints only 3
+// addTwoNumbers(3, null) // prints only 3
 
- const result =  addTwoNumbers(3,5)
- console.log("Result", result); //op-Result undefined
+//  const result =  addTwoNumbers(3,5)
+//  console.log("Result", result); //op-Result undefined
+
+
+function addTwoNumbers(num1, num2){ //as the num1 
+//    return result
+ return  num1 + num2
+}
+
+const result = addTwoNumbers(4, 8)
+console.log("mansi");// statements put before return will be working but if we any statement after return it will not return 
+console.log("Result: ", result);
+
+
 
 
 
