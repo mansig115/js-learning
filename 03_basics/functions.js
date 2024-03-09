@@ -35,10 +35,40 @@ function addTwoNumbers(num1, num2){ //as the num1
 }
 
 const result = addTwoNumbers(4, 8)
-console.log("mansi");// statements put before return will be working but if we any statement after return it will not return 
-console.log("Result: ", result);
+// console.log("mansi");// statements put before return will be working but if we any statement after return it will not return 
+// console.log("Result: ", result);
+
+//User has logged in so display a message
+
+// function loginUserMessage(username){
+//     return `${username} has just logged in`
+// }
+
+// loginUserMessage("Mansi") will not print anything
+// console.log(loginUserMessage("Mansi"));
+
+// console.log(loginUserMessage());//When not passed any value then the op comes as UNDEFINED
+
+// function loginUserMessage(username) {
+//     if(username === undefined)// if(!username){ 
+//         console.log("Please Enter a username");
+//         return
+//     }
+//     return `${username} has just logged in`
+
+// }
+
+// console.log(loginUserMessage());
 
 
-
-
-
+function loginUserMessage(username = "manu") {
+        if(!username){ 
+            console.log("Please Enter a username");
+            return
+        }
+        return `${username} has just logged in`
+    
+    }
+    
+    // console.log(loginUserMessage());
+    console.log(loginUserMessage("mansi"));
