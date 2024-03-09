@@ -86,7 +86,11 @@ console.log(instructor);
 
 // }
 
-
+[
+    {},
+    {},
+    {}
+]
 
 
 
