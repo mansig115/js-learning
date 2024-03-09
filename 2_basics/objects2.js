@@ -53,7 +53,40 @@ const obj4  ={ ...obj1, ...obj2, ...obj3}
 //  console.log(Object.keys(tinderUser));
  // op-[ 'id', 'name', 'isLoggedIn' ]
 
- console.log(Object.values(tinderUser));
- console.log(Object.entries(tinderUser)); //op- [ [ 'id', '123abc' ], [ 'name', 'Sammy' ], [ 'isLoggedIn', false ] ]
+//  console.log(Object.values(tinderUser));
+//  console.log(Object.entries(tinderUser)); //op- [ [ 'id', '123abc' ], [ 'name', 'Sammy' ], [ 'isLoggedIn', false ] ]
 
- console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+//  console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+ //Destructring array means-
+
+ const course = {
+    coursename: "js in hindi",
+    price: "999" ,
+    courseInstructor: "mansi"
+ }
+
+//  course.courseInstructor
+// const {courseInstructor} = course //if you think that the nane is quite big for instructor the yo can also write courseInstructor: instrctor
+const {courseInstructor: instructor} = course 
+// console.log(courseInstructor);
+console.log(instructor);
+
+// const navbar = (props.company) => {
+  //destructoring
+// }
+
+// {
+   //JSON
+
+//     "name": "mansi",
+//     "coursename" : "js learning",
+//     "price" : "free"
+
+// }
+
+
+
+
+
