@@ -45,6 +45,10 @@ JsUser.greetingTwo = function(){
 
 console.log(JsUser.greeting());
 console.log(JsUser.greetingTwo());
+//Exp o/p-Hello JS user
+// undefined
+// Hello JS user, Mansi
+// undefined
 
     
     
